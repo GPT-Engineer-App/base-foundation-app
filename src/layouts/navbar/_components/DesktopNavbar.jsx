@@ -1,4 +1,4 @@
-import { Cube } from "lucide-react";
+import { Package2 } from "lucide-react";
 import { NavItem } from "./NavItem";
 
 export const DesktopNavbar = ({ navItems }) => (
@@ -7,7 +7,7 @@ export const DesktopNavbar = ({ navItems }) => (
       to="/"
       className="flex items-center gap-2 text-lg font-semibold md:text-base"
     >
-      <Cube className="h-6 w-6" />
+      <Package2 className="h-6 w-6" />
       <span>MyApp</span>
     </NavItem>
     {navItems.map((item) => (

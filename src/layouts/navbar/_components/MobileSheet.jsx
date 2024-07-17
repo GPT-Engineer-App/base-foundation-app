@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Cube, Menu } from "lucide-react";
+import { Package2, Menu } from "lucide-react";
 import { NavItem } from "./NavItem";
 
 export const MobileSheet = ({ navItems }) => (
@@ -17,7 +17,7 @@ export const MobileSheet = ({ navItems }) => (
           to="/"
           className="flex items-center gap-2 text-lg font-semibold"
         >
-          <Cube className="h-6 w-6" />
+          <Package2 className="h-6 w-6" />
           <span>MyApp</span>
         </NavItem>
         {navItems.map((item) => (
